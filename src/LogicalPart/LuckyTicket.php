@@ -3,7 +3,7 @@
 namespace DevPro\TestTask\ArrayPart\LuckyTicket;
 
 /**
- * 2.2
+ * 1.2
  *
  * @return array
  */
