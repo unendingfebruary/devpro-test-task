@@ -6,7 +6,11 @@
     "autoload": {
         "psr-4": {
             "DevPro\\TestTask\\": "src/"
-        }
+        },
+        "files": [
+            "src/LogicalPart/EvilClown.php",
+            "src/LogicalPart/LuckyTicket.php"
+        ]
     },
     "require-dev": {
         "squizlabs/php_codesniffer": "^3.7",
