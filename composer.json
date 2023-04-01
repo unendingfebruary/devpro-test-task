@@ -1,7 +1,9 @@
 {
     "name": "dev-pro/test-task",
     "require": {
-        "php": "^8.2"
+        "php": "^8.2",
+        "ext-mbstring": "*",
+        "ext-ctype": "*"
     },
     "autoload": {
         "psr-4": {
@@ -9,7 +11,12 @@
         },
         "files": [
             "src/LogicalPart/EvilClown.php",
-            "src/LogicalPart/LuckyTicket.php"
+            "src/LogicalPart/LuckyTicket.php",
+            "src/ArrayPart/Reverse.php",
+            "src/ArrayPart/WordsInText.php",
+            "src/ArrayPart/ArraySum.php",
+            "src/ArrayPart/MirrorLetters.php",
+            "src/ArrayPart/UniqueWords.php"
         ]
     },
     "require-dev": {
