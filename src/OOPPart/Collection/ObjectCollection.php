@@ -25,7 +25,7 @@ class ObjectCollection
         }
     }
 
-    public function current(): object
+    public function current(): object|null
     {
         $hash = array_key_last($this->storage);
 
